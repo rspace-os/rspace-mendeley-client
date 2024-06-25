@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Laser cooling of atoms",
+    "type": "generic",
+    "authors": [
+      {
+        "first_name": "David J",
+        "last_name": "Wineland"
+      },
+      {
+        "first_name": "Wayne M",
+        "last_name": "Itano"
+      }
+    ],
+    "year": 1979,
+    "source": "Physical Review A",
+    "identifiers": {
+      "isbn": "1050-2947",
+      "issn": "10502947",
+      "doi": "10.1103/PhysRevA.20.1521"
+    },
+    "id": "b5bdec27-43a3-327c-bcb7-aa9ed41a36ce",
+    "abstract": "Various aspects of the laser cooling of atoms are investigated theoretically. More generally, the authors investigate a process through which the kinetic energy of a collection of resonant absorbers can be reduced by irradiating these absorbers with near-resonant electromagnetic radiation. The process is described here as anti-Stokes spontaneous Raman scattering. Cooling mechanisms, rates, and limits are discussed for both free and bound atoms.",
+    "link": "http://www.mendeley.com/research/laser-cooling-atoms-1"
+  }
+]
