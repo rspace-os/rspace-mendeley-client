@@ -1,39 +1,22 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
 	<modelVersion>4.0.0</modelVersion>
 	<artifactId>rspace-mendeley-client</artifactId>
-	<version>0.3.1</version>
+	<version>0.3.2</version>
+
 	<parent>
-	<artifactId>rspace-parent</artifactId>
-	<groupId>com.github.rspace-os</groupId>
-	<version>2.0.1</version>
+		<artifactId>rspace-parent</artifactId>
+		<groupId>com.github.rspace-os</groupId>
+		<version>2.0.1</version>
 	</parent>
-	<build>
-		<sourceDirectory>src/main/java</sourceDirectory>
-		<testSourceDirectory>src/test/java</testSourceDirectory>
-		<plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-toolchains-plugin</artifactId>
-                <version>1.1</version>
-                <executions>
-                    <execution>
-                        <goals>
-                            <goal>toolchain</goal>
-                        </goals>
-                    </execution>
-                </executions>
-                <configuration>
-                    <toolchains>
-                        <jdk>
-                            <version>${java-version}</version>
-                            <vendor>${java-vendor}</vendor>
-                        </jdk>
-                    </toolchains>
-                </configuration>
-            </plugin>		
-		</plugins>
-	</build>
+
+	<repositories>
+		<repository>
+			<id>jitpack.io</id>
+			<url>https://jitpack.io</url>
+		</repository>
+	</repositories>
 
 	<dependencies>
 		<dependency>
@@ -101,10 +84,11 @@
 			<groupId>org.junit.vintage</groupId>
 			<artifactId>junit-vintage-engine</artifactId>
 		</dependency>
-
 	</dependencies>
+
 	<properties>
 		<slf4j.version>1.7.12</slf4j.version>
 		<spring.social.version>1.1.4.RELEASE</spring.social.version>
 	</properties>
+
 </project>
